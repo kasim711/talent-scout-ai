@@ -9,6 +9,16 @@ All powered through a **single intelligent agent + real-time interaction layer**
 
 ---
 
+## Live Demo
+
+Frontend (Vercel):  
+https://talent-scout-ai-brown.vercel.app/
+
+Backend (Render):  
+https://talent-scout-ai-ok8y.onrender.com/
+
+Note: The backend is hosted on a free tier. The first request may take ~30–50 seconds as the server wakes up.
+
 ##  What Makes It Different
 
 -  Single AI Call Architecture (fast + cost-efficient)
