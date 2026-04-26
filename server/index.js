@@ -75,3 +75,11 @@ app.post("/api/gemini", async (req, res) => {
 app.listen(8000, () =>
   console.log("✅ OpenRouter backend running at http://localhost:8000")
 );
+
+app.get("/", (_, res) => {
+  res.send("Backend is running 🚀");
+});
+
+app.get("/health", (_, res) => {
+  res.json({ status: "ok" });
+});
