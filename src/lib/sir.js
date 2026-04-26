@@ -1,4 +1,8 @@
-const BACKEND = "http://localhost:8000/api/gemini";
+const BACKEND =
+  process.env.REACT_APP_BACKEND_URL ||
+  (process.env.NODE_ENV === "production"
+    ? "https://talent-scout-ai-ok8y.onrender.com/api/gemini"
+    : "http://localhost:8000/api/gemini");
 
 // ✅ yaha global guard variable
 let isCalling = false;
